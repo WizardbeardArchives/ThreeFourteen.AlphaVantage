@@ -43,6 +43,11 @@
             public static readonly Function CommodityChannelIndex = new Function("CCI");
         }
 
+        public static class Fundamentals
+        {
+            public static readonly Function FundamentalsOverview = new Function("OVERVIEW");
+        }
+
         private Function(string value)
         {
             Value = value;
